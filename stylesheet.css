@@ -15,11 +15,13 @@
 .topnav {
   font-family: "Alegreya-Regular", "Times New Roman", Times, serif;
   background-color: #333;
+  border: 20px;
+  border-color: #ff9900;
+  border-radius: 15px;
   overflow: hidden;
   position: fixed;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #ff9900;
@@ -29,16 +31,16 @@
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ff9900;
   color: #333;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: #ff9900;
   color: #333;
+  border: 10px;
+  border-color: #333;
 }
 
 .topnav .icon {
@@ -59,11 +61,13 @@
   .topnav.responsive {
     position: relative;
   }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -76,7 +80,7 @@
   margin: 0%;
   color: #333;
   background-color: #097054;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .text {
@@ -88,7 +92,7 @@
 }
 
 .top_text {
-  margin-top: 30%;
+  margin-top: 20%;
   margin-left: 20%;
 }
 
@@ -114,10 +118,21 @@
   margin-left: 20%;
 }
 
+#clock {
+  font-size: 175px;
+  width: 900px;
+  margin-left: 20%;
+  margin-top: 200px;
+  text-align: center;
+}
+
 .home_image {
   float: right;
   width: 37%;
+  height: 100%;
   margin-right: 0%;
+  margin-bottom: 0%;
+  padding: 0%;
 }
 
 .home_img {
